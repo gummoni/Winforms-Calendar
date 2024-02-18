@@ -41,7 +41,7 @@ namespace Gummoni.UI.MonthViewControl
         private DateTime _selectionStart;
         private DateTime _selectionEnd;
         private string _monthTitleFormat;
-        private DayOfWeek _weekStart;
+        private DayOfWeek _weekStart = DayOfWeek.Monday;
         private DayOfWeek _workWeekStart;
         private DayOfWeek _workWeekEnd;
         private MonthViewSelection _selectionMode;
@@ -480,7 +480,7 @@ namespace Gummoni.UI.MonthViewControl
             _selectionMode = MonthViewSelection.Manual;
             _workWeekStart = DayOfWeek.Monday;
             _workWeekEnd = DayOfWeek.Friday;
-            _weekStart = DayOfWeek.Sunday;
+            _weekStart = DayOfWeek.Monday;
             _dayNamesVisible = true;
             _dayNamesLength = 2;
             _viewStart = DateTime.Now;
