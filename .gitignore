@@ -10,3 +10,11 @@
 /WindowsFormsCalendar/.vs
 /WindowsFormsCalendar/bin
 /WindowsFormsCalendar/obj
+/SampleForm/obj
+/TestHarness/obj/Debug
+/TestHarness/obj
+/TestHarness/obj/project.assets.json
+/WindowsFormsCalendar.MonthViewDayControl/obj
+/Gummoni.UI.MonthViewControl/bin/Debug/net8.0-windows
+/Gummoni.UI.MonthViewControl/obj
+/Gummoni.UI.CalendarControl/obj
