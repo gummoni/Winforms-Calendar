@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Holds data of a Calendar Loading Items of certain date range

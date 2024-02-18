@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Provides color information of calendar graphical elements

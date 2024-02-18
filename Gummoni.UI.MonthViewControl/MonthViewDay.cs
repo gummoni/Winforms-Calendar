@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.MonthViewControl
 {
     /// <summary>
     /// A class that represents a month view day

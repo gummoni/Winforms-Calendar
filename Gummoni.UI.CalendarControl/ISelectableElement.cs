@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Represents a clickable element of <see cref="MonthView"/> control

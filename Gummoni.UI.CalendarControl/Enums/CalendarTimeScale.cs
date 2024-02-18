@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Enumerates possible timescales for <see cref="Calendar"/> control

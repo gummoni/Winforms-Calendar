@@ -23,7 +23,7 @@ using System.Text;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Represents an item of the calendar with a date and timespan

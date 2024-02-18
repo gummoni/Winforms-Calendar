@@ -23,9 +23,8 @@ using System.Text;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using Gummoni.UI.CalendarControl.UserControls;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Base class that renders visual elements of Calendar control

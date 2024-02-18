@@ -23,7 +23,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Represents a day present on the <see cref="Calendar"/> control's view.
@@ -199,7 +199,7 @@ namespace WindowsFormsCalendar
         /// <param name="calendar">The calendar.</param>
         /// <param name="date">The date.</param>
         /// <param name="index">The index.</param>
-        internal CalendarDay(Calendar calendar, DateTime date, int index)
+        internal CalendarDay(Calendar? calendar, DateTime date, int index)
             : base(calendar)
         {
             _containedItems = new List<CalendarItem>();

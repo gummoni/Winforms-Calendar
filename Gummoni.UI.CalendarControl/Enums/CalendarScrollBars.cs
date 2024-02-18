@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Enumeration for the different type of scroll bars

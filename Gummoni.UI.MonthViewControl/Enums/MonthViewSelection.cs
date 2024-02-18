@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.MonthViewControl
 {
     /// <summary>
     /// Represents the different kinds of selection in MonthView

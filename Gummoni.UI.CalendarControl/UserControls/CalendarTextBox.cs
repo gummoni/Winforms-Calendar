@@ -23,7 +23,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Gummoni.UI.CalendarControl.UserControls
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// A text box control used in the calendar

@@ -24,7 +24,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.MonthViewControl
 {
     /// <summary>
     /// Hosts a month-level calendar where user can select day-based dates

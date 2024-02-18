@@ -17,15 +17,10 @@
     along with indowsFormsCalendar.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.ComponentModel;
-using System.Drawing;
-using System.Windows.Forms;
-using WindowsFormsCalendar;
 
-namespace Gummoni.UI.CalendarControl.UserControls
+
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Hosts a calendar view where user can manage calendar items.

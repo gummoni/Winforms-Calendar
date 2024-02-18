@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Implements a basic <see cref="ICalendarSelectableElement"/>
@@ -95,7 +95,7 @@ namespace WindowsFormsCalendar
         /// </summary>
         /// <param name="element"></param>
         /// <returns></returns>
-        public virtual int CompareTo(ICalendarSelectableElement element)
+        public virtual int CompareTo(ICalendarSelectableElement? element)
         {
             return this.Date.CompareTo(element.Date);
         }

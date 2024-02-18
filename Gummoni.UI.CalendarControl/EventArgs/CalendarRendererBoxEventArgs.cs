@@ -23,7 +23,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Contains information about something's bounds and text to draw on the calendar

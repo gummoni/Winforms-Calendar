@@ -23,7 +23,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.MonthViewControl
 {
     /// <summary>
     /// Holds data about a box of text to be rendered on the month view

@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel;
 
-namespace WindowsFormsCalendar
+namespace Gummoni.UI.CalendarControl
 {
     /// <summary>
     /// Event arguments for the calendar item events.
