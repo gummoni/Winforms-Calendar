@@ -1,0 +1,12 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/.vs/WindowsFormsCalendar/v17/TestStore/0
+/.vs
+/TestHarness/.vs
+/TestHarness/bin/Debug
+/TestHarness/obj/x86/Debug
+/WindowsFormsCalendar/.vs
+/WindowsFormsCalendar/bin
+/WindowsFormsCalendar/obj
