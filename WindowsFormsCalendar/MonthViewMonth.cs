@@ -161,7 +161,7 @@ namespace WindowsFormsCalendar
 
                 if( i < 7 )
                 {
-                    DayHeaders[i] = curDate.ToString( MonthView.DayNamesFormat ).Substring( 0, MonthView.DayNamesLength );
+                    DayHeaders[i] = curDate.ToString(MonthView.DayNamesFormat);
                 }
 
                 curDate = curDate.AddDays( 1 );

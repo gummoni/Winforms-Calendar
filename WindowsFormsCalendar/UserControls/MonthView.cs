@@ -112,16 +112,6 @@ namespace WindowsFormsCalendar
         }
 
         /// <summary>
-        /// Gets or sets how many characters of day names should be displayed
-        /// </summary>
-        [DefaultValue( 2 )]
-        public int DayNamesLength
-        {
-            get { return _dayNamesLength; }
-            set { _dayNamesLength = value; UpdateMonths(); }
-        }
-
-        /// <summary>
         /// Gets or sets what the first day of weeks should be
         /// </summary>
         [DefaultValue( DayOfWeek.Sunday )]
@@ -672,7 +662,8 @@ namespace WindowsFormsCalendar
 
             for (int i = 0; i < 7; i++)
             {
-                strs[i] = ViewStart.AddDays(i).ToString(DayNamesFormat).Substring(0, DayNamesLength);
+                var dayNamesString = ViewStart.AddDays(i).ToString(DayNamesFormat);
+                strs[i] = dayNamesString;//.Substring(0, DayNamesLength);
             }
 
             for (int i = 7; i < strs.Length; i++)
